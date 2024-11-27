@@ -9,7 +9,7 @@ deployment:
 #   nginxConf: |-
 #     server {
 #         location /api {
-#             proxy_pass http://AATT_APP_NAME-backend-prod-service:3000/; # This value was modified by the initial-setup python script
+#             proxy_pass http://JamApp-backend-prod-service:3000/; # This value was modified by the initial-setup python script
 #         }
 #     }
 configmap: 
@@ -25,7 +25,7 @@ configmap:
         }
     
         location /api {
-            proxy_pass http://AATT_APP_NAME-backend-prod-service:3000/; # This value was modified by the initial-setup python script
+            proxy_pass http://JamApp-backend-prod-service:3000/; # This value was modified by the initial-setup python script
         }
         
         error_page   500 502 503 504  /50x.html;

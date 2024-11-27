@@ -9,7 +9,7 @@ on:
       - 'my-app/backend/**'
 
 env:
-  APP_NAME: AATT_APP_NAME # This value was modified by the initial-setup python script
+  APP_NAME: JamApp # This value was modified by the initial-setup python script
   SERVICE: backend
 
 jobs:
